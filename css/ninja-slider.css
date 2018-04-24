@@ -1,5 +1,3 @@
-/* Visit http://www.menucool.com/responsive-slider for instructions */
-
 #ninja-slider
 {
     width:100%;
@@ -24,14 +22,14 @@
     transition:none!important;
 }
 
-/* loading image indicator */    
-#ninja-slider div.preload 
+/* loading image indicator */
+#ninja-slider div.preload
 {
     background: black url(img/loading.gif) no-repeat center center;
 }
 
 /*----- video -----*/
-#ninja-slider a.video 
+#ninja-slider a.video
 {
 	position:absolute;
     border:0;top:0;left:0;
@@ -39,9 +37,9 @@
 	background:transparent url(img/video.png) no-repeat 50% 50%;
     transition:none!important;
 }
-  
-/*------ pager ------*/      
-/* The pager id should be: slider id + "-pager" */    
+
+/*------ pager ------*/
+/* The pager id should be: slider id + "-pager" */
 #ninja-slider-pager
 {
     padding-top:12px; /* set the distance away from the slider */
@@ -50,8 +48,8 @@
     display:table;
     font-size:0;
 }
-         
-#ninja-slider-pager a 
+
+#ninja-slider-pager a
 {
     display:inline-block;
     width: 10px;
@@ -63,19 +61,19 @@
     border-radius:10px;
     box-shadow:inset 0 1px 3px #666666;
 }
-#ninja-slider-pager a:hover 
+#ninja-slider-pager a:hover
 {
     opacity:0.6;
 }
-#ninja-slider-pager a.active 
+#ninja-slider-pager a.active
 {
     background-color:#1293dc;
     box-shadow:inset 0 1px 3px -1px #28b4ea,0 1px 1px rgba(0,0,0,.5);
     background-image:linear-gradient(top,#1293dc,#0f6297);
 }
- 
-/* --------- navigation controls ------- */   
-/* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */    
+
+/* --------- navigation controls ------- */
+/* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */
 #ninja-slider-prev, #ninja-slider-next
 {
     position: absolute;
