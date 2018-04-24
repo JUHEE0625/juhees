@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>form태그 학습</title>
+
+</head>
+<style>
+
+input {
+    border:1px solid gray;
+
+     height: 22px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+</style>
+<body>
+    <form name="해당 폼의 이름" action="값을 보낼 주소" method="post 방식인지 get 방식인지">
+        <table>
+          <tr>
+              <td>User Type</td>
+
+              <td>
+                  <select name= "user_type">
+                    <option value="" selected disabled hidden>User Type</option>
+                    <option value="Customer">Customer</option>
+                    <option value="Administrator">Administrator</option>
+                    <option value="Recpetion">Recpetion</option>
+
+                  </select>
+              </td>
+          </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="user_name" /></td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td><input type="text" name="user_id" /></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="user_pw" /></td>
+            </tr>
+            <tr>
+                <td>Password Check</td>
+                <td><input type="text" name="user_pw2" /></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                  <input name="user_email" id="emailAddress" type="email"
+                   required placeholder="email@gmail.com" ></td>
+            </tr>
+
+
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit" value="SUBMIT" />
+                <input type="reset" name="reset" value="RESET" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
