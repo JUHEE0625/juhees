@@ -1,13 +1,8 @@
 <?php
 echo '회원가입';
 
-    include "../include/dbConnect.php";
-    $host = 'localhost';
-    $user = 'root';
-    $passWord = '';
-    $dbName = 'myproject';
-
-    $dbConnect = new mysqli($host,$user,$passWord,$dbName);
+    include "../include/dbconnect.php";
+    
     echo "<pre>";
     echo var_dump($_POST);
 
