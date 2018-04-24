@@ -32,8 +32,8 @@ $_SESSION['childrens'] = $_POST["totalchildrens"];
 <meta name="reservation hotel for malaysia" >
 <meta name="zulkarnain" content="gambohnetwork.com.my">
 <meta name="copyright" content="Hotel Malaysia, inc. Copyright (c) 2014">
-<link rel="stylesheet" href="../scss/foundation.css">
-<link rel="stylesheet" href="../scss/style.css">
+<link rel="stylesheet" href="../css/foundation.css">
+<link rel="stylesheet" href="../css/style.css">
 <link href='http://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
 <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
