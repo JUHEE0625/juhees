@@ -1,5 +1,5 @@
 <?php
-$servername = "juuheeeee950625.xyz";
+$servername = "mysql.hostinger.kr";
 $database = "u375181454_hotel";
 $username = "u375181454_juhee";
 $password = "dst1738";
