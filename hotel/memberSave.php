@@ -56,7 +56,7 @@ $memberPw2 = $_POST['password_a'];
 
     }
     else {
-      echo "<script>alert(\"Try again....\")";
+      echo "<script>alert(\"Try again....\");
       
    
       </script>";
