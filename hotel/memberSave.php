@@ -1,10 +1,18 @@
 <?php
 echo '회원가입';
 
-    include "..dbconnect.php";
-    session_start(); 
-    echo "<pre>";
-    echo var_dump($_POST);
+$servername = "mysql.hostinger.kr";
+$database = "u375181454_hotel";
+$username = "u375181454_juhee";
+$password = "dst1738";
+// Create connection
+$dbConnect = mysqli_connect($servername, $username, $password, $database);
+// Check connection
+if (!$dbConnect) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+
 
     $memberId = $_POST['userId'];
     $memberName = $_POST['username'];
