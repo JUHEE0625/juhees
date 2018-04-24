@@ -2,7 +2,7 @@
 echo '회원가입';
 
     include "..dbconnect.php";
-    
+    session_start(); 
     echo "<pre>";
     echo var_dump($_POST);
 
