@@ -1,5 +1,5 @@
 {
-    "name": "hostinger/example-app",
+    "name": "JUHEE0625/juhees",
     "description": "Example Application to Deploy On Hostinger",
     "require": {
         "slim/slim": "^2.6"
@@ -8,7 +8,7 @@
     "authors": [
         {
             "name": "hostinger",
-            "email": "example.name@gmail.com"
+            "email": "khkim3261738@gmail.com"
         }
     ]
 }
