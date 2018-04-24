@@ -57,8 +57,8 @@ $memberPw2 = $_POST['password_a'];
     }
     else {
       echo "<script>alert(\"Try again....\")";
-      echo ": " . mysql_error($link) . "\n";
-      history.back();
+      
+   
       </script>";
     }
 
