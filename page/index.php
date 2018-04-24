@@ -8,11 +8,11 @@ session_start();
 <meta name="reservation hotel for malaysia" >
 <meta name="zulkarnain" content="gambohnetwork.com.my">
 <meta name="copyright" content="Hotel Malaysia, inc. Copyright (c) 2014">
-<link rel="stylesheet" href="../scss/normalize.css">
-<link rel="stylesheet" href="../scss/foundation.css">
-<link rel="stylesheet" href="../scss/style.css">
-<link rel="stylesheet" href="../scss/datepicker.css">
-<link href="../scss/datepicker.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/foundation.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/datepicker.css">
+<link href="../css/datepicker.css" rel="stylesheet" type="text/css"/>
 <link href='http://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
 <!--link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
@@ -45,7 +45,7 @@ session_start();
 
 	<div class="large-12 columns " >
 	<p><b>Check Date</b></p><hr class="line">
-			<form name="form" action="../page2/checkroom.php" method="post" onSubmit="return validateForm(this);">
+			<form name="form" action="../page/checkroom.php" method="post" onSubmit="return validateForm(this);">
 			<div class="row">
 
 					<div class="large-6 columns" style="max-width:100%;">
