@@ -1,7 +1,7 @@
 <?php
 echo '회원가입';
 
-    include "../include/dbconnect.php";
+    include "..dbconnect.php";
     
     echo "<pre>";
     echo var_dump($_POST);
