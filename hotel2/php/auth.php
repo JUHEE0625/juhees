@@ -1,6 +1,6 @@
 
 <?php
-$servername = "mysql.hostinger.kr";
+$servername = "sql151.main-hosting.eu ";
 $database = "u375181454_hotel";
 $username = "u375181454_juhee";
 $password = "dst1738";
@@ -10,5 +10,6 @@ $dbConnect = mysqli_connect($servername, $username, $password, $database);
 if (!$dbConnect) {
     die("Connection failed: " . mysqli_connect_error());
 }
+
 
 ?>
