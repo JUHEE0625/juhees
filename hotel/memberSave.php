@@ -25,7 +25,7 @@ $memberPw2 = $_POST['password_a'];
     //PHP에서 유효성 재확인
 
     //아이디 중복검사.
-    $sql = "SELECT * FROM member WHERE memberId = '{$memberId}'";
+    $sql = "SELECT * FROM user WHERE user_id = '{$memberId}'";
     $res = $dbConnect->query($sql);
     if($res->num_rows >= 1){
         echo 'This ID is already here.';
@@ -50,7 +50,7 @@ $memberPw2 = $_POST['password_a'];
     }
 
     //이제부터 넣기 시작
-    $sql = "INSERT INTO member VALUES('{$memberId}','{$memberPw}','{$memberName}','{$memberEmailAddress}','{$memberPhone}');";
+    $sql = "INSERT INTO user VALUES('{$memberId}','{$memberName}','{$memberPw}');";
 
     if($dbConnect->query($sql)){
       echo "<script>alert(\"Now you are Hilton Hotel's member!\");
